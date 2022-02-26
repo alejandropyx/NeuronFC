@@ -1,0 +1,65 @@
+h1  {    
+    margin: 0;
+    background-color: black;
+    text-align: center;
+    color: ghostwhite;
+    }
+
+#InputSection, #ExampleFile {
+
+    background-color: black;
+    text-align: center;
+    padding: 24px;
+}
+
+.custom-file-upload{
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: rgba(128, 0, 128, 0.541);
+    border: solid 0px;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: normal ;
+}
+
+.custom-file-upload:hover{
+    font-weight: bolder;
+}
+
+#fileToLoad{
+    width: 0px;
+    color: gainsboro;
+}
+
+#Labels{
+
+    color: gainsboro;
+    font-weight: normal ;
+}
+
+#myInput{
+
+    width: 30px;
+    border-radius: 5px;
+}
+
+button{
+
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: purple;
+    border: solid 0px;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: normal ;
+
+
+}
+
+button:hover{
+    font-weight: bolder;
+}
