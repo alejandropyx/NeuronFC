@@ -134,12 +134,7 @@ var Atlas1=[]
       success: function(data) {Atlas1 = JSON.parse(data);}
    });
 
-   $.ajax({
-    type: "GET",
-    url: "Locations.json",
-    dataType: "text",
-    success: function(data) { getLocationsNeurons(data)}
- });
+
 
  function getLocationsNeurons(data){
 
